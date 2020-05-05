@@ -1,0 +1,263 @@
+most_frequent_counter
+[[N = 1024]]
+         19 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 __init__.py:548(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:573(most_common)
+        1    0.000    0.000    0.000    0.000 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 heapq.py:524(nlargest)
+        1    0.000    0.000    0.000    0.000 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 2048]]
+         19 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 __init__.py:548(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:573(most_common)
+        1    0.000    0.000    0.000    0.000 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 heapq.py:524(nlargest)
+        1    0.000    0.000    0.000    0.000 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 4096]]
+         19 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 __init__.py:548(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:573(most_common)
+        1    0.000    0.000    0.000    0.000 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 heapq.py:524(nlargest)
+        1    0.000    0.000    0.000    0.000 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 8192]]
+         19 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.001    0.001 __init__.py:548(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:573(most_common)
+        1    0.000    0.000    0.001    0.001 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 heapq.py:524(nlargest)
+        1    0.000    0.000    0.001    0.001 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.001    0.001    0.001    0.001 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 16384]]
+         19 function calls in 0.002 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.001    0.001 __init__.py:548(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:573(most_common)
+        1    0.000    0.000    0.001    0.001 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 heapq.py:524(nlargest)
+        1    0.000    0.000    0.002    0.002 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.001    0.001    0.001    0.001 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 32768]]
+         19 function calls in 0.004 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.003    0.003 __init__.py:548(__init__)
+        1    0.000    0.000    0.001    0.001 __init__.py:573(most_common)
+        1    0.000    0.000    0.003    0.003 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.001    0.001 heapq.py:524(nlargest)
+        1    0.000    0.000    0.004    0.004 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.003    0.003    0.003    0.003 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.001    0.001    0.001    0.001 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 65536]]
+         19 function calls in 0.010 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.007    0.007 __init__.py:548(__init__)
+        1    0.000    0.000    0.003    0.003 __init__.py:573(most_common)
+        1    0.000    0.000    0.007    0.007 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.003    0.003 heapq.py:524(nlargest)
+        1    0.000    0.000    0.010    0.010 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.007    0.007    0.007    0.007 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.003    0.003    0.003    0.003 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 131072]]
+         19 function calls in 0.025 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.020    0.020 __init__.py:548(__init__)
+        1    0.000    0.000    0.005    0.005 __init__.py:573(most_common)
+        1    0.000    0.000    0.020    0.020 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.005    0.005 heapq.py:524(nlargest)
+        1    0.001    0.001    0.025    0.025 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.020    0.020    0.020    0.020 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.005    0.005    0.005    0.005 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 262144]]
+         19 function calls in 0.057 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.046    0.046 __init__.py:548(__init__)
+        1    0.000    0.000    0.009    0.009 __init__.py:573(most_common)
+        1    0.000    0.000    0.046    0.046 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.009    0.009 heapq.py:524(nlargest)
+        1    0.002    0.002    0.057    0.057 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.046    0.046    0.046    0.046 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.009    0.009    0.009    0.009 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 524288]]
+         19 function calls in 0.128 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.106    0.106 __init__.py:548(__init__)
+        1    0.000    0.000    0.019    0.019 __init__.py:573(most_common)
+        1    0.000    0.000    0.106    0.106 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.019    0.019 heapq.py:524(nlargest)
+        1    0.003    0.003    0.128    0.128 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.106    0.106    0.106    0.106 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.019    0.019    0.019    0.019 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+[[N = 1048576]]
+         19 function calls in 0.277 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+        1    0.000    0.000    0.237    0.237 __init__.py:548(__init__)
+        1    0.000    0.000    0.035    0.035 __init__.py:573(most_common)
+        1    0.000    0.000    0.237    0.237 __init__.py:617(update)
+        1    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.035    0.035 heapq.py:524(nlargest)
+        1    0.005    0.005    0.277    0.277 task1.py:32(most_frequent_counter)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.237    0.237    0.237    0.237 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.035    0.035    0.035    0.035 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}

@@ -1,0 +1,98 @@
+most_frequent_sort
+[[N = 1024]]
+         4 function calls in 0.017 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.017    0.017 task1.py:33(most_frequent_sort)
+        1    0.017    0.017    0.017    0.017 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[[N = 2048]]
+         4 function calls in 0.070 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.070    0.070 task1.py:33(most_frequent_sort)
+        1    0.070    0.070    0.070    0.070 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[[N = 4096]]
+         4 function calls in 0.300 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.300    0.300 task1.py:33(most_frequent_sort)
+        1    0.300    0.300    0.300    0.300 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[[N = 8192]]
+         4 function calls in 1.173 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.173    1.173 task1.py:33(most_frequent_sort)
+        1    1.173    1.173    1.173    1.173 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[[N = 16384]]
+         4 function calls in 4.520 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    4.520    4.520 task1.py:33(most_frequent_sort)
+        1    4.520    4.520    4.520    4.520 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[[N = 32768]]
+         4 function calls in 18.089 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   18.089   18.089 task1.py:33(most_frequent_sort)
+        1   18.088   18.088   18.088   18.088 {built-in method builtins.sorted}
+        1    0.001    0.001    0.001    0.001 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[[N = 65536]]
+         4 function calls in 73.979 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001   73.979   73.979 task1.py:33(most_frequent_sort)
+        1   73.977   73.977   73.977   73.977 {built-in method builtins.sorted}
+        1    0.002    0.002    0.002    0.002 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[[N = 131072]]
+         4 function calls in 304.053 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001  304.053  304.053 task1.py:33(most_frequent_sort)
+        1  304.050  304.050  304.050  304.050 {built-in method builtins.sorted}
+        1    0.002    0.002    0.002    0.002 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+Примечание. Этот профиль я не стал доводить до конца, поскольку видно, что функция most_frequent_sort выполняется
+гораздо дольше остальных реализаций.
